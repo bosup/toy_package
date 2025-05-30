@@ -1,0 +1,10 @@
+name: toy_env
+dependencies:
+  - python=3.10
+  - numpy>=1.21,<2.0
+  - pip
+  - pip:
+      - pytest
+      - pytest-cov
+      - pytest-html
+      - sphinx
